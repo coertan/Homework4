@@ -1,0 +1,432 @@
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(http://fonts.googleapis.com/css?family=Ranchers);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+
+body{
+	background-image: url(../img/19.jpg);
+	background-repeat: repeat;
+	background-size: 100%;
+	color: #000;
+}
+
+
+.content-box{
+	width: 60%;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 35px; 
+	box-shadow: 4px 4px 12px #555;
+	max-width: 1000px;
+}
+
+.content-main{
+	min-width: 300px;
+	min-height: 500px;
+}
+
+.content-main-home{
+	min-width: 300px;
+	background-size: 1000px auto;
+
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url(../img/pizza1.jpg);
+	min-height: 400px;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-width: 0px;
+}
+
+
+header{
+	background-color: #A36FCB;
+}
+
+.head{
+	width: 100%;
+}
+
+
+.pizza-image{
+	width:50%;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+}
+.image-center{
+	width: 95%;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+.discreetlink, .discreetlink:hover{
+	color: #000;
+}
+
+.discreetlink:link, 
+.discreetlink:visited{
+	text-decoration: none;
+}
+
+.discreetlink2{
+	color: #5A2484;
+}
+
+.discreetlink2:link, 
+.discreetlink2:visited{
+	text-decoration: none;
+}
+.name{
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	font-size: 48px;
+}
+
+.motto{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(255,255,255,0.4);
+
+}
+.address{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(255,255,255,0.4);
+	color: #FF0000;
+
+}
+
+
+
+.pull-right{
+	float:right;
+	margin: 10px;
+	padding: 10px;
+	width: 40%;
+}
+
+p{
+	margin: 10px;
+	padding: 10px;
+}
+
+
+li a{
+	display: inline-block;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+
+footer{
+	clear: both;
+	background-color: #A36FCB;
+	margin-bottom: 20px;
+}
+
+
+
+.foot{
+	margin-top: 0px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'Ranchers', cursive;
+
+}
+
+.navbar{
+	background-color: #2B0349;
+	width: 100%;	
+	border: none;
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px;
+}
+
+.aboutus{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 24px;
+	text-align: left;
+	margin: 15px ;
+}
+h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 34px;
+	text-align: center;
+	font-weight: bold;
+	margin: 15px ;
+}
+
+h2{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 24px;
+	text-align: left;
+	font-weight: bold;
+	margin: 15px ;
+}
+
+h3{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 26px;
+	text-align: left;
+	margin: 5px;
+	margin-left: 30px;
+}
+
+.obvious{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 24px;
+	text-align: left;
+	margin: 5px;
+	margin-left: 15px;
+	color: #5A2484;
+}
+
+
+.menu1{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	margin: 5px;
+	margin-left: 50px;
+	list-style-type: square;
+}
+
+.menu2{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	margin: 5px;
+	margin-left: 70px;
+	list-style-type: none;
+}
+
+.template-vegetarian, .template-meat{
+	display: none;
+}
+
+
+.navbar-brand{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 44px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover{
+	color:#A36FCB;
+	background-color: #2B0349;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+color: #A36FCB; 
+}
+
+
+.hiring{
+	text-align: center;
+}
+
+
+
+
+.navbar-default{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+.pizza-left{
+	float: left;
+	padding-left: 20px;
+}
+.pizza-right{
+	padding-right: 40px;
+	float: right;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	.cartStuff{
+		width: 80%;
+		margin: 30px;
+	}
+	.cart-item{
+		width: 90%;
+	}
+	.video{
+		display: none;
+	}
+	
+    .image-center{
+    	display: none;
+    }
+    .content-box{
+    	width: 320px;
+    }
+    .footer1{
+    	display: none;
+	}
+	.footer2{
+		font-size: 20px;
+	}
+	.foot{
+		margin: 0px;
+		padding: 0px;
+	}
+	.rowsetting{
+		width: 90%;
+	}
+
+    .menu1{
+    	font-size: 18px;
+
+    }
+    .menu2{
+    	font-size: 18px;
+    	padding-right: 20px;
+    }
+    h3{
+    	font-size: 18px;
+    }
+    .pizza-left{
+    	width: 100%;
+    	float: none;
+    	margin-left: 0px;
+    	margin-right: 50px;
+    }
+    .pizza-right{
+    	width: 100%;
+    	float: none;
+    	margin-left: 0px;
+    	margin-right: 50px;
+    }
+
+    .pull-right{
+    	display: none;
+    }
+    .pull-left{
+    	display: none;
+    }
+    .pizza-image{
+    	display: none;
+    }
+    .content-main, .content-main-home{
+    	
+    	min-width: 0px;
+    	min-height: 0px;
+    }
+    .motto{
+    	background-color: rgba(255,255,255,0.3);
+
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-centered .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+    .navbar-centered .navbar-nav > li {
+        float: none;
+    }
+    .navbar-centered .nav > li {
+        display: inline;
+    }
+    .navbar-centered .nav > li > a {
+        display: inline-block;
+    }
+    .navbar-brand{
+    	display: none;
+    }
+    .footer2{
+    	display: none;
+    }
+} 
+
+.add-to-cart{
+	float: right;
+}
+	
+.vegetarian-pizza{
+	border-top: 5px solid #000;
+}
+
+.meat-pizza{
+	border-top: 5px solid #000;
+}
+
+.menu3{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	margin: 5px;
+	padding: 0px;
+	margin-left: 50px;
+}
+.menuName{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 24px;
+	text-align: left;
+	margin: 5px;
+	margin-left: 50px;
+	list-style-type: square;
+}
+.menuDesc{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 18px;
+	text-align: left;
+	margin: 5px;
+	margin-left: 50px;
+	list-style-type: square;
+}
+
+.menuItem{
+	padding: 5px;
+	margin: 5px;
+}	
+.endingDiv{
+	border-top: 5px solid #000;
+}
+.drinkDiv{
+	border-top: 2px solid #000;
+}
+.total-row {
+    border-top: 4px solid #AAA;
+}
+
+
+.cart-item-template{
+	display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1000px){
+	.cartRow{
+		width: 90%;
+		margin: 20px;
+	}
+}
+
+@media (min-width: 990px){
+	.content-box{
+		min-width: 800px;
+	}
+}
